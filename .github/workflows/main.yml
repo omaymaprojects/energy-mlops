@@ -35,4 +35,4 @@ jobs:
         curl -X POST -H "Authorization: Bearer $RENDER_API_KEY" \
         -H "Content-Type: application/json" \
         -d '{"serviceId": "srv-cr29tgrv2p9s738cb7l0", "triggerType": "manual"}' \
-        https://dashboard.render.com/web/srv-cr29tgrv2p9s738cb7l0/deploys
+        https://api.render.com/v1/services/srv-cr29tgrv2p9s738cb7l0/deploys
