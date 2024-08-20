@@ -1,7 +1,8 @@
-servives:
-  -type: web
-   name: energy-mlops
-   env: python
-   plan: free
-   buildCommand: ""
-   startCommand: gunicorn app.app:app
+services:
+  - type: web
+    name: energy-mlops
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: gunicorn app.app:app
+
